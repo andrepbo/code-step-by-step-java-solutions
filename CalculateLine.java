@@ -7,7 +7,7 @@ public class CalculateLine extends ConsoleProgram {
 		while( x >= 0 ) {
 			x = readInt( "Enter x: " );
 			if( x >= 0 ) {
-				int y = (slope * x) + intercept;
+				int y = ( slope * x ) + intercept;
 				println( "f(" + x + ") = " + y );
 			}
 		}
